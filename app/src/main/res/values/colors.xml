@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@color/blueish</color>
+  <color name="colorPrimaryDark">@color/darker_blueish</color>
+  <color name="colorAccent">@color/pinkish</color>
+
+  <color name="transparent">@android:color/transparent</color>
+  <color name="pinkish">#FC5C7D</color>
+  <color name="blueish">#6A82FB</color>
+  <color name="darker_blueish">#586bcc</color>
+
+  <color name="card_scrim">#a8000000</color>
+  <color name="current_city_title">#a8FFFFFF</color>
+
+  <color name="sunny_blue">#39b7c9</color>
+</resources>

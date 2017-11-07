@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.niccorder.weather.location.LocationView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/locations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationY="75dp"/>
+
+  <FrameLayout
+    android:id="@+id/header_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/current_header_size"
+    android:background="@drawable/bg_header_sunny_blue">
+
+    <ImageView
+      android:id="@+id/current_weather_icon"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+
+    <TextView
+      android:id="@+id/current_city"
+      style="@style/TextAppearance.AppCompat.Display1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/current_city_title"
+      tools:text="Current City:"/>
+  </FrameLayout>
+
+</me.niccorder.weather.location.LocationView>
